@@ -1,8 +1,8 @@
 #!/usr/bin/expect
 set timeout 20
 set hostName [lindex $argv 0]
-set username {zte 650736 asurance}
-set password {zte Maint805 Asur4nce}
+set username {*** ****** ********}
+set password {*** ****** ********}
 set index 0
 set masuk 0
 
