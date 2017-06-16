@@ -1,7 +1,8 @@
 #!/usr/bin/expect
 set timeout 3
 set hostName [lindex $argv 0]
-set logDefault "*****"
+set username "*****"
+set password "*****"
 set i 1
 set x 1
 
@@ -22,9 +23,9 @@ proc showShelf {shelf slot} {
 
 spawn telnet $hostName
 expect "Username:"
-send "$logDefault\r"
+send "$username\r"
 expect "Password:"
-send "$logDefault\r"
+send "$password\r"
 
 while {$x < 3} {
   while {$i < 21} {
