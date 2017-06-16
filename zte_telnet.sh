@@ -1,6 +1,7 @@
 #!/usr/bin/expect
 set timeout 20
 set hostName [lindex $argv 0]
+#put username and password combination here in order
 set username {*** ****** ********}
 set password {*** ****** ********}
 set index 0
