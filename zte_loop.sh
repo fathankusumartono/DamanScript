@@ -11,5 +11,6 @@ ip=(
 length=${#ip[@]}
 # do the loop
 for ((i=0;i<$length;i++)); do
+	#call zte_telnet script with IP parameter and store it in MSANuser/[file]
 	./zte_telnet.sh "${ip[$i]}" | tee MSANuser/"${ip[$i]}"
 done
