@@ -1,7 +1,7 @@
 #!/usr/bin/expect
 set timeout 3
 set hostName [lindex $argv 0]
-set logDefault "zte"
+set logDefault "*****"
 set i 1
 set x 1
 
